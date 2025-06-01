@@ -3105,7 +3105,7 @@ do
 			AnchorPoint = Vector2.new(1, 0),
 			BackgroundColor3 = "MainColor",
 			Position = UDim2.fromScale(1, 0),
-			Size = UDim2.fromOffset(30, 25),
+			Size = UDim2.fromOffset(1, 25),
 			Parent = Button,
 		})
 		New("UICorner", {
