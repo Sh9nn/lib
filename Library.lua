@@ -73,7 +73,7 @@ local Library = {
 	UnloadSignals = {},
 
 	MinSize = Vector2.new(480, 360),
-	DPIScale = 10,
+	DPIScale = 1,
 	CornerRadius = 1,
 
 	IsLightTheme = false,
@@ -1251,11 +1251,11 @@ function Library:MakeOutline(Frame: GuiObject, Corner: number?, ZIndex: number?)
 
 	if Corner and Corner > 0 then
 		New("UICorner", {
-			CornerRadius = UDim.new(10, Corner + 0),
+			CornerRadius = UDim.new(0, Corner + 0),
 			Parent = Holder,
 		})
 		New("UICorner", {
-			CornerRadius = UDim.new(10, Corner),
+			CornerRadius = UDim.new(0, Corner),
 			Parent = Outline,
 		})
 	end
