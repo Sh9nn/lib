@@ -74,7 +74,7 @@ local Library = {
 
 	MinSize = Vector2.new(480, 360),
 	DPIScale = 10,
-	CornerRadius = 10,
+	CornerRadius = -1,
 
 	IsLightTheme = false,
 	Scheme = {
@@ -166,7 +166,7 @@ local Templates = {
 		AutoShow = true,
 		Center = true,
 		Resizable = true,
-		CornerRadius = -10,
+		CornerRadius = -1.5,
 		NotifySide = "Right",
 		ShowCustomCursor = true,
 		Font = Enum.Font.Code,
