@@ -74,7 +74,7 @@ local Library = {
 
 	MinSize = Vector2.new(480, 360),
 	DPIScale = 1,
-	CornerRadius = 5,
+	CornerRadius = 10,
 
 	IsLightTheme = false,
 	Scheme = {
@@ -1251,7 +1251,7 @@ function Library:MakeOutline(Frame: GuiObject, Corner: number?, ZIndex: number?)
 
 	if Corner and Corner > 0 then
 		New("UICorner", {
-			CornerRadius = UDim.new(0, Corner + 0),
+			CornerRadius = UDim.new(0, Corner + 1),
 			Parent = Holder,
 		})
 		New("UICorner", {
