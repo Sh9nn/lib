@@ -73,7 +73,7 @@ local Library = {
 	UnloadSignals = {},
 
 	MinSize = Vector2.new(480, 360),
-	DPIScale = 1,
+	DPIScale = 10,
 	CornerRadius = 10,
 
 	IsLightTheme = false,
